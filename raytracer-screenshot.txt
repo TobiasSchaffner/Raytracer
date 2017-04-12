@@ -1,0 +1,89 @@
+# Glittermaus (mit glitzer glitzer und Maus)
+# Kamera, Viewport-Zentrum, -Breite und -Hoehe
+looker [0 0 5] [0 0 0] 4 4
+
+light [5 4 -4]
+
+# Rumpf
+sphere [0 0 -5] 1.5
+    ambient 0.2
+    diffuse 0.8
+    reflexion 1
+    specular 1 60
+
+# Kopf
+sphere [0 2 -5] 1
+    ambient 0.2
+    diffuse 0.8
+    reflexion 1
+    specular 1 60
+
+# Auge links
+sphere [-0.3 2.35 -4.2] 0.2
+    ambient 0
+    diffuse 0.2
+    reflexion 1
+    specular 1 60
+
+# Auge rechts
+sphere [0.3 2.35 -4.2] 0.2
+    ambient 0
+    diffuse 0.2
+    reflexion 1
+    specular 1 60
+
+# Ohr links
+sphere [-0.5 3 -4.8] 0.6
+    ambient 0
+    diffuse 0.2
+    reflexion 1
+    specular 1 60
+
+# Ohr rechts
+sphere [0.5 3 -4.8] 0.6
+    ambient 0
+    diffuse 0.2
+    reflexion 1
+    specular 1 60
+
+# Nase
+sphere [0 2 -4] 0.30
+    ambient 0.3
+    diffuse 0.7
+    reflexion 1
+    specular 1 60
+
+# Arm links
+sphere [-1.4 1.1 -4.8] 0.5
+    ambient 0
+    diffuse 0.2
+    reflexion 1
+    specular 1 60
+
+# Arm rechts
+sphere [1.4 1.1 -4.8] 0.5
+    ambient 0
+    diffuse 0.2
+    reflexion 1
+    specular 1 60
+
+
+# Fuss links
+sphere [-1.0 -1.5 -4.8] 1.0
+    ambient 0
+    diffuse 0.2
+    reflexion 1
+    specular 1 60
+
+# Fuss rechts
+sphere [1.0 -1.5 -4.8] 1.0
+    ambient 0
+    diffuse 0.2
+    reflexion 1
+    specular 1 60
+
+# Ebene
+plane [0 -1.5 0] <0 1 0>
+    ambient 0.05
+    reflexion 1
+    diffuse 0.8
